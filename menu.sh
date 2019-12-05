@@ -6,11 +6,11 @@ do
     case $opt in
         "UDP")
             echo -e "\e[32m "you chose UDP" \e[0m"
-perl ChrismasKills.pl
+perl UDP.pl
             ;;
         "DDoS")
             echo -e "\e[32m "you chose TCP"  \e[0m"
-python2 Wrecking.py
+python2 TCP.py
             ;;
         "Quit")
             break
