@@ -1,6 +1,6 @@
 PS3='Please enter your choice: '
 echo "                           "
-options=("UDP" "TCP" "Quit")
+options=("UDP" "None Here Yet" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -8,7 +8,7 @@ do
             echo -e "\e[32m "you chose UDP" \e[0m"
 perl UDP.pl
             ;;
-        "DDoS")
+        "TCP")
             echo -e "\e[32m "you chose TCP"  \e[0m"
 python2 TCP.py
             ;;
